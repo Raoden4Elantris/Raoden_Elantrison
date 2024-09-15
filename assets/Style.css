@@ -1,0 +1,169 @@
+body {
+  margin: 0;
+  background-color: #ddd;
+}
+
+h1 {
+  margin: 0;
+  padding: 20px;
+  font-size: 35px;
+  text-align: center;
+  background-color: #999;
+}
+
+.text-container {
+  font-size: 16px;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: justify;
+}
+
+.text-container p {
+  margin: 10px;
+}
+
+h2 {
+  font-size: 1.6rem;
+  margin: 0;
+  margin-left: 10px;
+}
+
+.article-container {
+  display: flex;
+  flex-wrap: wrap;
+  /* margin-left: 10px; */
+}
+
+article {
+  max-width: 200px;
+  margin: 20px;
+  text-align: center;
+}
+
+.bordered-article {
+  border: 1px solid #000;
+  border-radius: 20px;
+  box-shadow: 0.2rem 0.4rem 0.5rem rgb(0, 0, 0, 0.8);
+  text-align: left;
+}
+
+.bordered-article img {
+  margin: 10px 0;
+  border-radius: 0%;
+  box-shadow: none;
+}
+
+a button {
+  margin: 3px;
+  margin-top: 0;
+  margin-left: 5px;
+  border-radius: 10px;
+  padding: 3px 5px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.wsapp {
+  background-color: #0a0;
+}
+
+.email {
+  background-color: #caa;
+}
+
+.bordered-article p {
+  padding-left: 3px;
+  margin: 5px;
+}
+
+img {
+  max-width: 200px;
+  border-radius: 20%;
+  box-shadow: 0.2rem 0.4rem 0.5rem rgb(0, 0, 0, 0.8);
+}
+
+footer {
+  background-color: #999;
+  margin: 0;
+  padding: 20px;
+}
+
+footer a {
+  float: right;
+  margin-left: 5px;
+}
+
+footer img {
+  width: 30px;
+  border-radius: 50%;
+}
+
+footer p {
+  margin: 0;
+}
+
+/* Esta parte es para el formulario. Es la única que es bastante diferente */
+
+.form-body {
+  background-color: #555;
+}
+
+form {
+  background-color: #bbb;
+  padding: 10px;
+  margin: 0.5rem;
+  font-weight: 600;
+  font-size: 23px;
+  border-radius: 50px;
+}
+
+form label,
+form input {
+  display: block;
+  width: 80%;
+  margin: 10px auto;
+  padding: 8px;
+}
+
+form input {
+  outline: none;
+  border-radius: 10px;
+  border: none;
+  border-top: 2px solid #222;
+  transition: all 0.3s;
+}
+
+.btn {
+  display: block;
+  width: 80%;
+  margin: 10px auto;
+  padding: 8px;
+  border: 3px solid #222;
+  border-radius: 10px;
+  background-color: #777;
+  width: 81.5%;
+  margin-top: 20px;
+  font-weight: 700;
+}
+
+input:hover {
+  background-color: #bbb;
+}
+
+.btn:hover {
+  background-color: #999;
+}
+
+.resultado {
+  margin: 0 auto;
+  width: 81%;
+  text-align: left;
+}
+
+.red {
+  color: #444;
+}
+
+.green {
+  color: #777;
+}

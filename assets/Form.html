@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario</title>
+    <link rel="stylesheet" href="Style.css" />
+  </head>
+
+  <body class="form-body">
+    <form action="mailto:lisandro.02@gmail.com">
+      <label>Nombre completo</label>
+      <input
+        id="nombre"
+        type="text"
+        placeholder="Nombre Completo"
+        required
+        autocomplete="off"
+      />
+      <label>Dirección particular</label>
+      <input
+        id="direccion"
+        type="text"
+        placeholder="Calle # e/ Calle y Calle"
+        required
+        autocomplete="off"
+      />
+      <label>Número de teléfono</label>
+      <input
+        id="numero"
+        type="number"
+        placeholder="+53 ########"
+        required
+        autocomplete="off"
+      />
+      <input class="btn" type="submit" value="ENVIAR" />
+      <div class="resultado"></div>
+    </form>
+
+    <script src="Main.js"></script>
+  </body>
+</html>
